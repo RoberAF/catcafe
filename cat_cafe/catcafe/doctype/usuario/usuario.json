@@ -1,0 +1,74 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:nombre_usuario",
+ "creation": "2024-10-03 10:55:45.672060",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "email",
+  "contrase\u00f1a",
+  "nombre_usuario",
+  "nombre",
+  "primer_apellido",
+  "segundo_apellido"
+ ],
+ "fields": [
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "contrase\u00f1a",
+   "fieldtype": "Password",
+   "label": "Contrase\u00f1a"
+  },
+  {
+   "fieldname": "nombre_usuario",
+   "fieldtype": "Data",
+   "label": "Nombre Usuario",
+   "unique": 1
+  },
+  {
+   "fieldname": "nombre",
+   "fieldtype": "Data",
+   "label": "Nombre"
+  },
+  {
+   "fieldname": "primer_apellido",
+   "fieldtype": "Data",
+   "label": "Primer Apellido"
+  },
+  {
+   "fieldname": "segundo_apellido",
+   "fieldtype": "Data",
+   "label": "Segundo Apellido"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-03 10:58:38.648479",
+ "modified_by": "Administrator",
+ "module": "CatCafe",
+ "name": "Usuario",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

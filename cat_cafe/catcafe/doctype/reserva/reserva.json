@@ -1,0 +1,62 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{usuario}: {inicio} - {final}",
+ "creation": "2024-10-03 10:51:32.713324",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "inicio",
+  "final",
+  "usuario"
+ ],
+ "fields": [
+  {
+   "fieldname": "inicio",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Inicio",
+   "reqd": 1
+  },
+  {
+   "fieldname": "final",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Final",
+   "reqd": 1
+  },
+  {
+   "fieldname": "usuario",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Usuario",
+   "options": "Usuario",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-03 11:00:52.658604",
+ "modified_by": "Administrator",
+ "module": "CatCafe",
+ "name": "Reserva",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

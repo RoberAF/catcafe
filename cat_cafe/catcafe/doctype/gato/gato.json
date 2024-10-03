@@ -1,0 +1,87 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:nombre",
+ "creation": "2024-10-03 10:40:19.978611",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "nombre",
+  "nacimiento",
+  "raza",
+  "comida",
+  "revision",
+  "reserva",
+  "baja"
+ ],
+ "fields": [
+  {
+   "fieldname": "nombre",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Nombre",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "nacimiento",
+   "fieldtype": "Date",
+   "label": "Nacimiento"
+  },
+  {
+   "fieldname": "comida",
+   "fieldtype": "Link",
+   "label": "Comida",
+   "options": "Comida"
+  },
+  {
+   "fieldname": "revision",
+   "fieldtype": "Link",
+   "label": "Revision",
+   "options": "Revision"
+  },
+  {
+   "fieldname": "reserva",
+   "fieldtype": "Link",
+   "label": "Reserva",
+   "options": "Reserva"
+  },
+  {
+   "default": "0",
+   "fieldname": "baja",
+   "fieldtype": "Check",
+   "label": "Baja"
+  },
+  {
+   "fieldname": "raza",
+   "fieldtype": "Link",
+   "label": "Raza",
+   "options": "Raza"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-03 11:07:37.159761",
+ "modified_by": "Administrator",
+ "module": "CatCafe",
+ "name": "Gato",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
